@@ -1,0 +1,9 @@
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: uat-url:9092,uat-url:9093,uat-url:9094
+      key-serializer: org.apache.kafka.common.serialization.LongSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    admin:
+      properties:
+        bootstrap.servers: uat-url:9092,uat-url:9093,uat-url:9094
