@@ -1,0 +1,5 @@
+POST WITH-NULL-LIBRARY-EVENT-ID
+---------------------
+http POST :8080/v1/library-events \
+libraryEventId=123 \
+book:='{"bookId": 456, "bookName": "Kafka Using Spring Boot", "bookAuthor": "Dilip"}'
